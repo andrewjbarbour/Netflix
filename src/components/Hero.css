@@ -1,0 +1,59 @@
+.hero-wrapper{
+    width: 100%;
+    display: flex
+    linear-gradient(77deg ,rgba(0,0,0,.6) 0,rgba(0,0,0,0) 85%);
+    z-index: -10;
+  }
+  
+  #hero-img {
+   
+    max-height: 720px;
+    z-index: -10;
+    bottom: 35%;
+    width: 100%;
+  }
+  
+  #caption {
+    position: absolute;
+    margin-top: 10rem;
+    margin-left: 1.2rem;
+    z-index: 1;
+    display: inline-flex;
+    width: 40%;
+  }
+
+  @media only screen and (max-width: 900px){
+    #caption{
+      margin-top: 9rem;
+    }
+  }
+
+  @media only screen and (max-width: 800px){
+    #caption{
+      margin-top: 8rem;
+    }
+  }
+
+  @media only screen and (max-width: 700px){
+    #caption{
+      margin-top: 7rem;
+    }
+  }
+
+  @media only screen and (max-width: 600px){
+    #caption{
+      margin-top: 6rem;
+    }
+  }
+
+  @media only screen and (max-width: 500px){
+    #caption{
+      margin-top: 5rem;
+    }
+  }
+
+  @media only screen and (max-width: 400px){
+    #caption{
+      margin-top: 4rem;
+    }
+  }

@@ -1,0 +1,12 @@
+.SearchResults {
+    display: block;
+    font-family: Helvetica;
+    color: #fff;
+    padding-left: 50px;
+    justify-content: center;
+}
+
+
+.Shows {
+    margin-top: 100px;
+}

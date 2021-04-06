@@ -1,0 +1,21 @@
+.Show {
+    font-family: Helvetica Neue;
+    padding: 1rem;
+    display: flex;
+    
+}
+
+.ShowButton {
+    border-radius: 56px;
+    background-color: #ff0000;
+    display: inline-block;
+}
+
+.ShowInformation {
+    justify-content: center;
+   
+}
+
+.ShowButton:hover {
+    cursor: pointer;
+}

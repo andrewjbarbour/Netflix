@@ -1,0 +1,55 @@
+section{
+    display: flex;
+    justify-content: center;
+    
+}
+
+li {
+    list-style: none;
+    margin: 10px 50px;
+}
+
+
+.Footer{
+    background-color: #141414;
+    width: 100%;
+    padding-bottom: 50px;
+    height: 100%;
+    margin-top: 50px;
+    
+}
+
+.Footer a {
+   
+    cursor: pointer;
+    text-decoration: none;
+    color: #808080;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: Helvetica;
+    font-weight: 400;
+    
+}
+
+.Footer a:hover {
+    text-decoration: underline;
+    text-decoration-color: #808080;
+}
+
+@media only screen and (max-width: 1000px){
+    #FooterMenu4{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    #FooterMenu3{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #FooterMenu2{
+        display: none;
+    }
+}
